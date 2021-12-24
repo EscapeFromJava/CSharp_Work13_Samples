@@ -75,13 +75,12 @@ namespace CShawp_Work13_Samples
             }
 
             string result = count.ToString();
-            string output = @"OUTPUT.txt"; 
+            string output = @"OUTPUT.txt";
             File.WriteAllText(output, result);
         }
 
         static void FillingList(char[] arr, List<string> list)
         {
-
             foreach (var el in arr)
             {
                 if (el == '0')
@@ -131,6 +130,7 @@ namespace CShawp_Work13_Samples
                 listOut.Add(temp);
             }
         }
+
         static void Combo2(List<string> listIn, List<string> listOut)
         {
             for (int i = 0; i < listIn[0].Length; i++)
@@ -142,6 +142,7 @@ namespace CShawp_Work13_Samples
                 }
             }
         }
+
         static void Combo3(List<string> listIn, List<string> listOut)
         {
             for (int i = 0; i < listIn[0].Length; i++)
@@ -156,6 +157,7 @@ namespace CShawp_Work13_Samples
                 }
             }
         }
+
         static void Combo4(List<string> listIn, List<string> listOut)
         {
             for (int i = 0; i < listIn[0].Length; i++)
@@ -166,13 +168,15 @@ namespace CShawp_Work13_Samples
                     {
                         for (int l = 0; l < listIn[3].Length; l++)
                         {
-                            string temp = listIn[0][i].ToString() + listIn[1][j].ToString() + listIn[2][k].ToString() + listIn[3][l].ToString();
+                            string temp = listIn[0][i].ToString() + listIn[1][j].ToString() + listIn[2][k].ToString() +
+                                          listIn[3][l].ToString();
                             listOut.Add(temp);
                         }
                     }
                 }
             }
         }
+
         static void Combo5(List<string> listIn, List<string> listOut)
         {
             for (int i = 0; i < listIn[0].Length; i++)
@@ -185,7 +189,9 @@ namespace CShawp_Work13_Samples
                         {
                             for (int m = 0; m < listIn[4].Length; m++)
                             {
-                                string temp = listIn[0][i].ToString() + listIn[1][j].ToString() + listIn[2][k].ToString() + listIn[3][l].ToString() + listIn[4][m].ToString();
+                                string temp = listIn[0][i].ToString() + listIn[1][j].ToString() +
+                                              listIn[2][k].ToString() + listIn[3][l].ToString() +
+                                              listIn[4][m].ToString();
                                 listOut.Add(temp);
                             }
                         }
@@ -193,6 +199,7 @@ namespace CShawp_Work13_Samples
                 }
             }
         }
+
         static void Combo6(List<string> listIn, List<string> listOut)
         {
             for (int i = 0; i < listIn[0].Length; i++)
@@ -207,7 +214,9 @@ namespace CShawp_Work13_Samples
                             {
                                 for (int n = 0; n < listIn[5].Length; n++)
                                 {
-                                    string temp = listIn[0][i].ToString() + listIn[1][j].ToString() + listIn[2][k].ToString() + listIn[3][l].ToString() + listIn[4][m].ToString() + listIn[5][n].ToString();
+                                    string temp = listIn[0][i].ToString() + listIn[1][j].ToString() +
+                                                  listIn[2][k].ToString() + listIn[3][l].ToString() +
+                                                  listIn[4][m].ToString() + listIn[5][n].ToString();
                                     listOut.Add(temp);
                                 }
                             }
@@ -216,6 +225,7 @@ namespace CShawp_Work13_Samples
                 }
             }
         }
+
         static void Combo7(List<string> listIn, List<string> listOut)
         {
             for (int i = 0; i < listIn[0].Length; i++)
@@ -232,7 +242,10 @@ namespace CShawp_Work13_Samples
                                 {
                                     for (int o = 0; o < listIn[6].Length; o++)
                                     {
-                                        string temp = listIn[0][i].ToString() + listIn[1][j].ToString() + listIn[2][k].ToString() + listIn[3][l].ToString() + listIn[4][m].ToString() + listIn[5][n].ToString() + listIn[6][o].ToString();
+                                        string temp = listIn[0][i].ToString() + listIn[1][j].ToString() +
+                                                      listIn[2][k].ToString() + listIn[3][l].ToString() +
+                                                      listIn[4][m].ToString() + listIn[5][n].ToString() +
+                                                      listIn[6][o].ToString();
                                         listOut.Add(temp);
                                     }
                                 }
@@ -242,6 +255,7 @@ namespace CShawp_Work13_Samples
                 }
             }
         }
+
         static void Combo8(List<string> listIn, List<string> listOut)
         {
             for (int i = 0; i < listIn[0].Length; i++)
@@ -260,7 +274,10 @@ namespace CShawp_Work13_Samples
                                     {
                                         for (int p = 0; p < listIn[7].Length; p++)
                                         {
-                                            string temp = listIn[0][i].ToString() + listIn[1][j].ToString() + listIn[2][k].ToString() + listIn[3][l].ToString() + listIn[4][m].ToString() + listIn[5][n].ToString() + listIn[6][o].ToString() + listIn[7][p].ToString();
+                                            string temp = listIn[0][i].ToString() + listIn[1][j].ToString() +
+                                                          listIn[2][k].ToString() + listIn[3][l].ToString() +
+                                                          listIn[4][m].ToString() + listIn[5][n].ToString() +
+                                                          listIn[6][o].ToString() + listIn[7][p].ToString();
                                             listOut.Add(temp);
                                         }
                                     }
@@ -271,6 +288,7 @@ namespace CShawp_Work13_Samples
                 }
             }
         }
+
         static void Combo9(List<string> listIn, List<string> listOut)
         {
             for (int i = 0; i < listIn[0].Length; i++)
@@ -291,7 +309,11 @@ namespace CShawp_Work13_Samples
                                         {
                                             for (int q = 0; q < listIn[8].Length; q++)
                                             {
-                                                string temp = listIn[0][i].ToString() + listIn[1][j].ToString() + listIn[2][k].ToString() + listIn[3][l].ToString() + listIn[4][m].ToString() + listIn[5][n].ToString() + listIn[6][o].ToString() + listIn[7][p].ToString() + listIn[8][q].ToString();
+                                                string temp = listIn[0][i].ToString() + listIn[1][j].ToString() +
+                                                              listIn[2][k].ToString() + listIn[3][l].ToString() +
+                                                              listIn[4][m].ToString() + listIn[5][n].ToString() +
+                                                              listIn[6][o].ToString() + listIn[7][p].ToString() +
+                                                              listIn[8][q].ToString();
                                                 listOut.Add(temp);
                                             }
                                         }
