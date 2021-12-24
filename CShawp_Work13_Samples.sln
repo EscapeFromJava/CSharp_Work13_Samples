@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CShawp_Work13_Samples", "CShawp_Work13_Samples\CShawp_Work13_Samples.csproj", "{A44550E2-116D-4191-964A-8CBDEFB984F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A44550E2-116D-4191-964A-8CBDEFB984F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A44550E2-116D-4191-964A-8CBDEFB984F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A44550E2-116D-4191-964A-8CBDEFB984F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A44550E2-116D-4191-964A-8CBDEFB984F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE567F44-2B34-410F-88FC-7FBDEC53987A}
+	EndGlobalSection
+EndGlobal
